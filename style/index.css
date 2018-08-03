@@ -1,0 +1,163 @@
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: 'marienda' , cursive;
+    text-decoration:none;
+}
+
+.tit{
+    position: relative;
+    top: 7px;
+    font-size: 4em;
+
+}
+header{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+    background: coral;
+}
+section,aside {
+    padding: 90px;
+    background:#F4FCFF;
+    -moz-border-radius:8px;-webkit-border-radius:8px;-o-border-radius:8px;border-radius:8px;
+}
+test{
+    position: absolute;
+    width: 45%;
+    top: 48px;
+
+}
+img{
+    position: relative;
+    width: 100%;
+}
+aside {
+    float: right;
+    width: 30%;
+}
+
+#menu{
+    width:30.3%;
+    top: 270%;
+    padding: 3%;
+    left: 420px;
+}
+.img{
+    position: relative;
+    right: 14pC;
+    top:5px;
+}
+
+nav {
+    position: relative;
+    height: 88%;
+    width: 100%;
+    top:-5px;
+    overflow: hidden;
+    background-color: red;
+}
+nav ul {
+    float:none;
+    clear:both;
+    list-style-type:none;
+    padding:0px;
+}
+nav ul li{
+    padding: 20px;
+    font-size: 17px;
+}nav a{
+	font-family: 'Titillium Web', sans-serif;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+nav ul :hover{
+	color: blue;
+}
+nav ul li {
+    float:left;
+    padding:3px 10px;
+    margin:2px;
+}
+aside ul li {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    list-style: none;
+}
+
+footer {
+    margin:10px;
+    text-align:center;
+    clear:both;
+}
+
+
+@media screen and (max-width:870px) {
+    .container {
+        width: 87%;
+    }
+    section {
+        width:48%;
+    }
+}
+@media screen and (max-width:500px) {
+    aside,section {
+        float:none;
+        width:100%;
+    }
+    nav, section {
+        font-size:2.2em;
+    }
+    aside {
+        margin-top:8px;
+    }
+    nav ul {
+        float:none;
+        clear:both;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+    aside {
+        display:none;
+    }
+    nav, section {
+        font-size:1.5em;
+    }
+    section {
+        width:97%;
+    }
+    nav ul {
+        float:left;
+        clear:none;
+        width:75%;
+    }
+    nav ul li {
+        float:none;
+    }
+}
+footer{
+    font-family: 'Titillium Web', sans-serif;
+	color:black;
+	text-decoration: none;
+	text-align: center;    
+}
+/*busqueda*/
+
+.content{
+    position: relative;
+    top: 262%;
+    padding: 2%;
+    width: 29.3%;
+    left: 297px;
+
+}
